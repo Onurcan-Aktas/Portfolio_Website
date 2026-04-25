@@ -6,13 +6,13 @@ import './App.css'
 import HeaderLeft from './components/HeaderLeft'
 import Home from './components/Home'
 import Experience from './components/Experience'
-import Project from './components/Project'
 import Contact from './components/Contact'
+import Projects from './components/Projects'
 
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
@@ -22,7 +22,7 @@ function App() {
         <main className='flex-[3]'>
           <Home/>
           <Experience/>
-          <Project/>
+          <Projects/>
           <Contact/>
 
         </main>
