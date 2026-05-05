@@ -28,22 +28,22 @@ const HeaderLeft = () => {
       
       <a href="#home" className='flex flex-col items-center justify-center'>
         <BiHome className='text-2xl' />
-        <span className='text-xs'>Home</span>
+        <span className='text-xs'>home</span>
       </a>
 
       <a href="#experience" className='flex flex-col items-center justify-center'>
         <BiBriefcase className='text-2xl' />
-        <span className='text-xs'>Experience</span>
+        <span className='text-xs'>experience</span>
       </a>
 
       <a href="#project" className='flex flex-col items-center justify-center'>
         <BiCode className='text-2xl' />
-        <span className='text-xs'>Projects</span>
+        <span className='text-xs'>projects</span>
       </a>
 
       <a href="#contact" className='flex flex-col items-center justify-center'>
         <BiMailSend className='text-2xl' />
-        <span className='text-xs'>Contact</span>
+        <span className='text-xs'>contact</span>
       </a>
 
     </div>
